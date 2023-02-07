@@ -1,0 +1,129 @@
+body {
+  font-family: "Noto Sans NKo", sans-serif;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #03095e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/mrnadeem.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: aliceblue;
+  font-size: 2.524rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.header p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.header span {
+  color: #03095e;
+}
+
+.header button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #03095e;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main {
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+main p {
+  width: 30%;
+  font-weight: 300;
+  padding: 30px;
+  align-self: center;
+  text-align: left;
+}
+
+main img {
+  height: 40vh;
+  align-self: center;
+  border: solid #e5fdd1;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+  .header p {
+    font-size: 1.25rem;
+  }
+}
+
+.recent-projects {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.recent-projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 30%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
